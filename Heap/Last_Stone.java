@@ -2,13 +2,13 @@
 @Author: Anmol Kumar Sharma
 
 Problem Statement: 
-Given a array arr[] of N elements where each element represents the weight of the stone. We need to perform followinf operations:
-* Pick the two largest element from the array and remove these element if they are equal else remove them and add the adsolute difference of element into the array.
-* Perform the above operations util the arrat has one or no element in it. 
-* If the array has only one element left then return that element, else return 0;
+Given a array arr[] of N element where each element represents the weight of the stone. We need to perform following operations:
+* Pick the two largest stone from the array and remove these stone if they are equal else remove them and add the adsolute difference of these stone into the array.
+* Perform the above operations utill the array has one or no stone in it. 
+* If the array has only one stone left then return that stone, else return 0;
 
 Approach Used: Max Heap
-Time Complexity: O(N), where N is the number of element in the array initially.
+Time Complexity: O(N), where N is the number of stones in the array initially.
 Space Complexity: O(N)
 
 Similar Problem: https://www.geeksforgeeks.org/last-element-remaining-by-deleting-two-largest-elements-and-replacing-by-their-absolute-difference-if-they-are-unequal/
